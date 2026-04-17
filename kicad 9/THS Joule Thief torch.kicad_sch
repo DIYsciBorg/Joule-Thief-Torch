@@ -1,0 +1,2812 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "80760754-fa52-43a3-be4b-fd46c61dd9fb")
+	(paper "A4")
+	(title_block
+		(title "THS Joule Thief")
+		(comment 1 "Emery Premeaux")
+	)
+	(lib_symbols
+		(symbol "THS Joule Thief torch-eagle-import:1522C_MURATA_AC-CHOKE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "THS Joule Thief torch:AC-CHOKE_THROUGH_HOLE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "muRata AC-choke 1522C Two coils wound around a core No data available online. From the Tokyo HackerSpace auction buy."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1522C_MURATA_AC-CHOKE_1_0"
+				(polyline
+					(pts
+						(xy -10.16 10.16) (xy 10.16 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 5.08) (xy -10.16 10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -5.08) (xy -10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -10.16) (xy -10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -10.16 5.08)
+					(mid -8.89 6.35)
+					(end -7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -10.16 -5.08)
+					(mid -8.89 -3.81)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 5.08)
+					(mid -6.35 6.35)
+					(end -5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 -5.08)
+					(mid -6.35 -3.81)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 5.08)
+					(mid -3.81 6.35)
+					(end -2.54 5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -5.08)
+					(mid -3.81 -3.81)
+					(end -2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 5.08)
+					(mid -1.27 6.35)
+					(end 0 5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -5.08)
+					(mid -1.27 -3.81)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid 1.27 6.35)
+					(end 2.54 5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.08)
+					(mid 1.27 -3.81)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 5.08)
+					(mid 3.81 6.35)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -5.08)
+					(mid 3.81 -3.81)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 5.08)
+					(mid 6.35 6.35)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -5.08)
+					(mid 6.35 -3.81)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 5.08)
+					(mid 8.89 6.35)
+					(end 10.16 5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 7.62 -5.08)
+					(mid 8.89 -3.81)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 10.16) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 5.08) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 10.16 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -10.16) (xy -10.16 -10.16)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "muRata"
+					(at -5.08 2.54 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "1522C"
+					(at -5.08 -2.54 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+						(justify left bottom)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 5.08 0)
+					(length 5.08)
+					(name "COIL1_A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "COIL2_A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 5.08 180)
+					(length 5.08)
+					(name "COIL1_B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "COIL2_B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "THS Joule Thief torch-eagle-import:2SC1815"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "T"
+				(at -10.16 7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -10.16 5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "THS Joule Thief torch:TO92-ECB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN EPITAXIAL TRANSISTOR\n\nSource: TOSHIBA .. 2SC1815   1.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "2SC1815_1_0"
+				(rectangle
+					(start -0.254 -2.54)
+					(end 0.508 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -2.286) (xy 1.905 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -2.413) (xy 2.286 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.54 -2.04) (xy 0.308 -1.424)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -1.524) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -1.778) (xy 1.524 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -2.286) (xy 1.778 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.413) (xy 1.778 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0.508 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "E"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "THS Joule Thief torch-eagle-import:BATTERY"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BAT"
+				(at -3.81 5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -6.35 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "THS Joule Thief torch:BATTERY-AA-PANEL-AKIZUKI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Battery Holders\nVarious common sizes : AA, AAA, 20mm coin cell and 12mm coin cell.\n20MM_4LEGS, BATT-10373"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BATTERY_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.524 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "+"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "-"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "THS Joule Thief torch-eagle-import:LED5MM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 3.556 -4.572 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 5.715 -4.572 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "THS Joule Thief torch:LED5MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED\n\nOSRAM:\n- CHIPLED\nLG R971, LG N971, LY N971, LG Q971, LY Q971, LO R971, LY R971 LH N974, LH R974\nLS Q976, LO Q976, LY Q976\nLO Q996\n- Hyper CHIPLED\nLW Q18S\nLB Q993, LB Q99A, LB R99A\n- SideLED\nLS A670, LO A670, LY A670, LG A670, LP A670\nLB A673, LV A673, LT A673, LW A673\nLH A674\nLY A675\nLS A676, LA A676, LO A676, LY A676, LW A676\nLS A679, LY A679, LG A679\n-  Hyper Micro SIDELED®\nLS Y876, LA Y876, LO Y876, LY Y876\nLT Y87S\n- SmartLED\nLW L88C, LW L88S\nLB L89C, LB L89S, LG L890\nLS L89K, LO L89K, LY L89K\nLS L896, LA L896, LO L896, LY L896\n- TOPLED\nLS T670, LO T670, LY T670, LG T670, LP T670\nLSG T670, LSP T670, LSY T670, LOP T670, LYG T670\nLG T671, LOG T671, LSG T671\nLB T673, LV T673, LT T673, LW T673\nLH T674\nLS T676, LA T676, LO T676, LY T676, LB T676, LH T676, LSB T676, LW T676\nLB T67C, LV T67C, LT T67C, LS T67K, LO T67K, LY T67K, LW E67C\nLS E67B, LA E67B, LO E67B, LY E67B, LB E67C, LV E67C, LT E67C\nLW T67C\nLS T679, LY T679, LG T679\nLS T770, LO T770, LY T770, LG T770, LP T770\nLB T773, LV T773, LT T773, LW T773\nLH T774\nLS E675, LA E675, LY E675, LS T675\nLS T776, LA T776, LO T776, LY T776, LB T776\nLHGB T686\nLT T68C, LB T68C\n- Hyper Mini TOPLED®\nLB M676\n- Mini TOPLED Santana®\nLG M470\nLS M47K, LO M47K, LY M47K\n\nSource: http://www.osram.convergy.de/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED5MM_1_0"
+				(polyline
+					(pts
+						(xy -3.429 2.159) (xy -3.048 1.27) (xy -2.54 1.778)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 3.302) (xy -2.921 2.413) (xy -2.413 2.921)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy -3.429 -2.159)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.905) (xy -3.302 -3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "K"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "THS Joule Thief torch-eagle-import:OS102011MA1Q"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at -8.255 -1.905 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -5.715 2.54 90)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "THS Joule Thief torch:OS102011MA1Q"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "OS10201MA1Q through-hole right angle switch\n\nhttp://www.ladyada.net/library/eagle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "OS102011MA1Q_1_0"
+				(polyline
+					(pts
+						(xy -6.35 1.905) (xy -6.35 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 1.905) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 0) (xy -6.35 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 0) (xy -4.445 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.905) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.905 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.175) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "O"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "P"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OS102011MA1Q_2_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "MT1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(symbol "OS102011MA1Q_3_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MT"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "MT2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "THS Joule Thief torch-eagle-import:PINHD-1X2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -6.35 5.715 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -5.08 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "THS Joule Thief torch:1X02"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PIN HEADER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PINHD-1X2_1_0"
+				(polyline
+					(pts
+						(xy -6.35 5.08) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy -6.35 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "THS Joule Thief torch-eagle-import:R-US_0204/7"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "THS Joule Thief torch:0204_7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RESISTOR, American symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-US_0204/7_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.159 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.889 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.381 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.651 1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.651 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 104.14 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05759749-0cb6-4406-9e96-5a8ede4f1935")
+	)
+	(junction
+		(at 154.94 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57d92e57-07b5-4806-b59e-8736fe2e7bd5")
+	)
+	(junction
+		(at 154.94 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72c0468f-0c9f-4919-adfd-3e5b0e90ec5b")
+	)
+	(junction
+		(at 119.38 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81d4b211-3740-42fb-a190-2983da767876")
+	)
+	(junction
+		(at 142.24 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ee8955c-5dfa-4c54-bc29-ce51e21d30ad")
+	)
+	(junction
+		(at 167.64 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d685783-d99e-4747-9a37-10607a475a13")
+	)
+	(junction
+		(at 167.64 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e24b1d46-415a-4059-a72a-702003ba8191")
+	)
+	(junction
+		(at 205.74 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e44cd9d2-9343-4de1-9387-737c4c7d0620")
+	)
+	(junction
+		(at 104.14 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee00dca7-665b-43be-840b-219bfbef1bf7")
+	)
+	(wire
+		(pts
+			(xy 119.38 55.88) (xy 114.3 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "06e58c17-07c3-477d-b3c4-1a0180a5734c")
+	)
+	(wire
+		(pts
+			(xy 167.64 134.62) (xy 154.94 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "107ec5cb-ba49-4173-8031-40fb7d06704d")
+	)
+	(wire
+		(pts
+			(xy 167.64 119.38) (xy 205.74 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1c9a07cf-39ad-4983-a6d6-3eee74d5705a")
+	)
+	(wire
+		(pts
+			(xy 154.94 119.38) (xy 167.64 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1e9062e3-247b-4298-9eeb-3d94eb9fe327")
+	)
+	(wire
+		(pts
+			(xy 144.78 66.04) (xy 144.78 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "386cdca0-d52b-4681-88b0-46f991881ae7")
+	)
+	(wire
+		(pts
+			(xy 144.78 101.6) (xy 144.78 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4416aab5-d5ab-4be8-8e74-188dac5624e5")
+	)
+	(wire
+		(pts
+			(xy 144.78 109.22) (xy 127 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "45cbfa2d-2027-485c-b84f-296abb39361b")
+	)
+	(wire
+		(pts
+			(xy 142.24 129.54) (xy 142.24 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4855fb4a-e659-48bd-b067-cad7cb81747a")
+	)
+	(wire
+		(pts
+			(xy 83.82 73.66) (xy 83.82 77.724)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "56e16ab4-9321-4e37-9f26-56109ccf657e")
+	)
+	(wire
+		(pts
+			(xy 154.94 127) (xy 154.94 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5eaad4ae-cc7e-447c-ad9f-ce0907b50924")
+	)
+	(wire
+		(pts
+			(xy 142.24 119.38) (xy 154.94 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "634036ff-3be7-4f3c-b922-366703e042b7")
+	)
+	(wire
+		(pts
+			(xy 104.14 134.62) (xy 104.14 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6cca1854-2a25-4ea0-b669-f3d8a67e9894")
+	)
+	(wire
+		(pts
+			(xy 205.74 127) (xy 205.74 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6df126c3-ba77-490a-b2b1-0b5d08128cff")
+	)
+	(wire
+		(pts
+			(xy 154.94 101.6) (xy 148.59 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "70b946c6-3e13-46be-a093-4f4f9965ca49")
+	)
+	(wire
+		(pts
+			(xy 119.38 58.42) (xy 119.38 55.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "71c49d55-f353-4dfe-87cf-1dc6ba9854c1")
+	)
+	(wire
+		(pts
+			(xy 205.74 71.12) (xy 154.94 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "731e1801-0850-45be-bcca-6389c76aacdd")
+	)
+	(wire
+		(pts
+			(xy 213.36 129.54) (xy 205.74 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "73a1f1b3-8657-480d-a422-d75a87413f55")
+	)
+	(wire
+		(pts
+			(xy 104.14 83.82) (xy 83.82 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "781449d6-1732-4924-86ea-f3d3cbb4a57f")
+	)
+	(wire
+		(pts
+			(xy 119.38 66.04) (xy 119.38 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7a0a7931-ae06-4606-b6e9-4cc7031ff281")
+	)
+	(wire
+		(pts
+			(xy 127 124.46) (xy 137.16 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8fee6257-0aaa-4391-9982-b20cecf4df4c")
+	)
+	(wire
+		(pts
+			(xy 148.59 101.6) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "adf295a4-f7ad-4d38-bcb4-9ca0382b230c")
+	)
+	(wire
+		(pts
+			(xy 127 109.22) (xy 127 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "af0d51ea-da32-46de-bbc8-23db6d54e994")
+	)
+	(wire
+		(pts
+			(xy 167.64 127) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b7bda9a2-fe16-4463-bf6c-3cfb08720e27")
+	)
+	(wire
+		(pts
+			(xy 83.82 83.82) (xy 83.82 80.264)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c0fb5b19-e63b-4eb9-8c15-d0c177928327")
+	)
+	(wire
+		(pts
+			(xy 119.38 58.42) (xy 148.59 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c87f1068-3dd2-438a-8007-f08cf94c8f0c")
+	)
+	(wire
+		(pts
+			(xy 205.74 119.38) (xy 205.74 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cfbf378c-5fcf-429f-a4b7-ff3305c393af")
+	)
+	(wire
+		(pts
+			(xy 205.74 129.54) (xy 205.74 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cffb4e90-cd02-441a-85e4-f57939d386d5")
+	)
+	(wire
+		(pts
+			(xy 154.94 134.62) (xy 142.24 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "db293780-03fb-4ab7-85b5-9b2a2eff9772")
+	)
+	(wire
+		(pts
+			(xy 104.14 73.66) (xy 83.82 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "df5715ae-832d-482b-828a-5d8f3227d9ce")
+	)
+	(wire
+		(pts
+			(xy 205.74 134.62) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e236dbb2-751b-4ffd-8b2f-703408a0864b")
+	)
+	(wire
+		(pts
+			(xy 129.54 66.04) (xy 144.78 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e2d3243c-eb53-4601-9ce2-ad64ad526a14")
+	)
+	(wire
+		(pts
+			(xy 142.24 134.62) (xy 104.14 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f2039472-3b43-4fe3-b6ff-55bf4a04facd")
+	)
+	(wire
+		(pts
+			(xy 213.36 127) (xy 205.74 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f262b6ef-ea74-41e1-8252-8bcf0e42c886")
+	)
+	(wire
+		(pts
+			(xy 104.14 73.66) (xy 104.14 58.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f72fc3fe-d097-40d7-8fd1-2ebec5014c05")
+	)
+	(symbol
+		(lib_id "THS Joule Thief torch-eagle-import:PINHD-1X2")
+		(at 215.9 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0547ae32-9063-44d7-a24b-cbafd5136425")
+		(property "Reference" "JP2"
+			(at 209.55 123.825 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PINHD-1X2"
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "THS Joule Thief torch:1X02"
+			(at 215.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52173da7-8c68-47ef-a98a-7f9b86453b2a")
+		)
+		(pin "2"
+			(uuid "fa48fa6a-b1fe-4738-bf90-18c2de780fbd")
+		)
+		(instances
+			(project ""
+				(path "/80760754-fa52-43a3-be4b-fd46c61dd9fb"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "THS Joule Thief torch-eagle-import:LED5MM")
+		(at 154.94 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06fc3ae4-9aed-4962-8db5-fbe5f6fb69bb")
+		(property "Reference" "LED1"
+			(at 158.496 126.492 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LED5MM"
+			(at 160.655 126.492 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "THS Joule Thief torch:LED5MM"
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "K"
+			(uuid "01224fc4-5570-4493-b347-de6987506653")
+		)
+		(pin "A"
+			(uuid "78afab48-cdeb-4a80-8618-56fab1c890ca")
+		)
+		(instances
+			(project ""
+				(path "/80760754-fa52-43a3-be4b-fd46c61dd9fb"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "THS Joule Thief torch-eagle-import:R-US_0204/7")
+		(at 124.46 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15a4882d-812f-4e50-8ebb-e34bdc656674")
+		(property "Reference" "R1"
+			(at 120.65 64.5414 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1K"
+			(at 120.65 69.342 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "THS Joule Thief torch:0204_7"
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" ""
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f6e62b8-025f-4c1c-80ef-5d084dfaf92d")
+		)
+		(pin "1"
+			(uuid "11e271f4-8b1d-46c8-8e8e-c73c2805f032")
+		)
+		(instances
+			(project ""
+				(path "/80760754-fa52-43a3-be4b-fd46c61dd9fb"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "THS Joule Thief torch-eagle-import:PINHD-1X2")
+		(at 86.36 80.264 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "229e272c-eeb5-47d0-b66c-3d8f8793876c")
+		(property "Reference" "JP1"
+			(at 80.01 74.549 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PINHD-1X2"
+			(at 80.01 85.344 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "THS Joule Thief torch:1X02"
+			(at 86.36 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 86.36 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad5658f4-7c31-4331-9866-eb6357053a32")
+		)
+		(pin "2"
+			(uuid "9b5692f1-a6f6-4d8e-9a8b-12d88edc71af")
+		)
+		(instances
+			(project ""
+				(path "/80760754-fa52-43a3-be4b-fd46c61dd9fb"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "THS Joule Thief torch-eagle-import:1522C_MURATA_AC-CHOKE")
+		(at 149.86 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f6a1636-7253-43d6-b6e8-bf9aa49d0737")
+		(property "Reference" "U$1"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1522C_MURATA_AC-CHOKE"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "THS Joule Thief torch:AC-CHOKE_THROUGH_HOLE"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47876390-e958-401e-b175-b2ac0796fe4c")
+		)
+		(pin "1"
+			(uuid "a50858a5-577e-4847-b597-a4e3e81652b6")
+		)
+		(pin "4"
+			(uuid "e0029286-8e36-4351-926f-8104c43f431b")
+		)
+		(pin "3"
+			(uuid "4bddc8ec-b1c0-4b09-9332-28250a4816c2")
+		)
+		(instances
+			(project ""
+				(path "/80760754-fa52-43a3-be4b-fd46c61dd9fb"
+					(reference "U$1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "THS Joule Thief torch-eagle-import:2SC1815")
+		(at 139.7 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9eda33b3-9e99-4b03-bd57-1c32c797af23")
+		(property "Reference" "T1"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2SC1815"
+			(at 129.54 119.38 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "THS Joule Thief torch:TO92-ECB"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B"
+			(uuid "f03787f0-86b1-4fa6-9873-457f3ee98ccd")
+		)
+		(pin "C"
+			(uuid "309d2f11-e7c8-4dfa-99b8-1d83955c9bae")
+		)
+		(pin "E"
+			(uuid "7156d4e2-2941-4c65-88a6-520a2c136f0b")
+		)
+		(instances
+			(project ""
+				(path "/80760754-fa52-43a3-be4b-fd46c61dd9fb"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "THS Joule Thief torch-eagle-import:BATTERY")
+		(at 104.14 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad893aa0-5360-4e60-be15-837aa059a658")
+		(property "Reference" "BAT1"
+			(at 109.22 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BATTERY"
+			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "THS Joule Thief torch:BATTERY-AA-PANEL-AKIZUKI"
+			(at 104.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "+"
+			(uuid "4cd0eafc-f664-4a47-bfbe-ba90c7bc59cf")
+		)
+		(pin "-"
+			(uuid "451e8236-f6cb-423e-87ba-3194bf1efde3")
+		)
+		(instances
+			(project ""
+				(path "/80760754-fa52-43a3-be4b-fd46c61dd9fb"
+					(reference "BAT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "THS Joule Thief torch-eagle-import:OS102011MA1Q")
+		(at 109.22 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b96687d8-ba99-4e85-b3e8-7f3eb06862b5")
+		(property "Reference" "SW1"
+			(at 100.965 60.325 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "OS102011MA1Q"
+			(at 103.505 55.88 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "THS Joule Thief torch:OS102011MA1Q"
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e775d09-aaea-4fcb-994d-ae782f11624b")
+		)
+		(pin "3"
+			(uuid "a4abfc1c-0a17-4e9b-b7aa-995028bfa139")
+		)
+		(pin "MT2"
+			(uuid "52c37ac2-59ab-42d5-9d76-81379ca7f660")
+		)
+		(pin "1"
+			(uuid "67939b44-6ae9-4ef6-856a-4bda25e7f693")
+		)
+		(pin "MT1"
+			(uuid "e91052b3-1885-4a42-a613-abaec2a0c1e6")
+		)
+		(instances
+			(project ""
+				(path "/80760754-fa52-43a3-be4b-fd46c61dd9fb"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "THS Joule Thief torch-eagle-import:LED5MM")
+		(at 167.64 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f312f3aa-31fa-4643-8b34-408c3d236dda")
+		(property "Reference" "LED2"
+			(at 171.196 126.492 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "LED5MM"
+			(at 173.355 126.492 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "THS Joule Thief torch:LED5MM"
+			(at 167.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "950c5aad-f6da-4c86-880e-f73e28aae10b")
+		)
+		(pin "K"
+			(uuid "11224f76-0a92-4e7c-a3f4-dd58f883795e")
+		)
+		(instances
+			(project ""
+				(path "/80760754-fa52-43a3-be4b-fd46c61dd9fb"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

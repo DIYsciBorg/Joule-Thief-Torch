@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "THS Joule Thief torch")(type "KiCad")(uri "$(KIPRJMOD)/THS Joule Thief torch.pretty")(options "")(descr ""))
+)
