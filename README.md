@@ -61,7 +61,7 @@ DONE!
 
 ### Bend the LEDs and solder them
 
- ![5 JT bending LEDs](./images/5-JT-bending-LEDs.jpg)  
+ ![5 JT bending LEDs](./images/5-JT-bending-LEDs.jpg)
 
 ### Transistor
 
@@ -73,7 +73,7 @@ DONE!
 
 ### Modify the coil
 
-![JT coil 1](./images/JT-coil-1.jpg)  
+![JT coil 1](./images/JT-coil-1.jpg)
 Above is a sample of the provided coil. It is a white torroid, with copper wire wrapped around it. You may also have a larger, green torroid. Both work equally well.
 
 Notice that there is only a single coil (with two wires comming off the torroid). We will need to modify it so that there are two coils, with four wires comming from the torroid.
@@ -88,20 +88,20 @@ Straighten the wire as best you can. Find the center, and cut the wire in half.
 Look carefully at the ends of the wires. One side is shiny because the enamel coating that forms an insulation layer had already been removed from the wire. The other side remains orange.  
 Place the two wires side by side. If necessary, flip one wire, such that on each side you have one shiny end and one enameled end. We will use this difference to help us keep the windings straight, and make sure we solder the wires into the correct locations on the PCB.
 
-![JT coil 4](./images/JT-coil-4.jpg) 
+![JT coil 4](./images/JT-coil-4.jpg)
 
-It is especially important to take your time and be careful when starting to wind the coil.  
+It is especially important to take your time and be careful when starting to wind the coil.
 Pick up the pair of wires and insert one end through the torroid. Bend the wires such that they hook around the torroid as in the image above. Double check that you have one shiny wire and one enamel coated wire end.
 
-![JT coil 5](./images/JT-coil-5.jpg) 
+![JT coil 5](./images/JT-coil-5.jpg)
 
 Carefully arrange the wires side by side, and pass them through the torroid again. Take your time to arrange them so they are not crossed. I find it is a bit easer after the first wrap or two, to put them through one at a time.
 
 As you wrap, pull tightly on the wires to get them to tight against the torrid. It is not critical to get them perfect, but the more time you spend here, the nicer it will look (and perhaps a SMALL amount of performance).
 
-![JT coil 6](./images/JT-coil-6.jpg) 
+![JT coil 6](./images/JT-coil-6.jpg)
 
-You dont need to try to get every bit of wire onto the torroid. As you get close to the end, be sure to make a bit of space for the last wrap or two by tightening up the spacing of each wrap.  
+You dont need to try to get every bit of wire onto the torroid. As you get close to the end, be sure to make a bit of space for the last wrap or two by tightening up the spacing of each wrap.
 Notice that on each side of the torroid, there are two wires, one shiny and one coated with enamel. Also notice that, for example, the shiny wires are diagonally from each other.
 
 ### Solder the coil
